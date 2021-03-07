@@ -38,7 +38,7 @@ AA0D000000FFFFBB // reset = 0
  * Overall project verified by oscilloscope measurements of the frequency of the encoder signals.
  The motor speed is 14.15708 RPS (7078.54/500). Which is quite close to the desired speed: 14 RPS.  
  ![alt text](https://github.com/hakan-demirli/PID-FPGA/blob/main/14RPS.png?raw=true)  
- * Motors response to disturbances under PID control:  
+ * Motor's response to disturbances under PID control:  
   ![alt text](https://github.com/hakan-demirli/PID-FPGA/blob/main/Disturbance.jpg?raw=true)  
 # Possible Design Improvements and Current Flaws
  * Rotatory Encoder creates 500 pulses for every rotation. But, the calculations are done by dividing the pulse count by 512 in order to avoid a separate division circuit.
