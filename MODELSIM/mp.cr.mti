@@ -1,0 +1,71 @@
+C:/Users/EMRE/Desktop/ms/TOP.v {1 {vlog -work work C:/Users/EMRE/Desktop/ms/TOP.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module TOP
+
+Top level modules:
+	TOP
+
+} {} {}} C:/Users/EMRE/Desktop/ms/SIGNAL_GENERATOR.v {1 {vlog -work work C:/Users/EMRE/Desktop/ms/SIGNAL_GENERATOR.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module SIGNAL_GENERATOR
+
+Top level modules:
+	SIGNAL_GENERATOR
+
+} {} {}} C:/Users/EMRE/Desktop/ms/TX.v {1 {vlog -work work C:/Users/EMRE/Desktop/ms/TX.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module UART_TX
+
+Top level modules:
+	UART_TX
+
+} {} {}} C:/Users/EMRE/Desktop/ms/TX_DATA_COLLECTION_STATE_MACHINE.v {1 {vlog -work work C:/Users/EMRE/Desktop/ms/TX_DATA_COLLECTION_STATE_MACHINE.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module TX_DATA_COLLECTION_STATE_MACHINE
+
+Top level modules:
+	TX_DATA_COLLECTION_STATE_MACHINE
+
+} {} {}} C:/Users/EMRE/Desktop/ms/PWM.v {1 {vlog -work work C:/Users/EMRE/Desktop/ms/PWM.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module PWM
+
+Top level modules:
+	PWM
+
+} {} {}} C:/Users/EMRE/Desktop/ms/PID.v {1 {vlog -work work C:/Users/EMRE/Desktop/ms/PID.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module PID
+
+Top level modules:
+	PID
+
+} {} {}} C:/Users/EMRE/Desktop/ms/MOTOR.v {1 {vlog -work work C:/Users/EMRE/Desktop/ms/MOTOR.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MOTOR
+
+Top level modules:
+	MOTOR
+
+} {} {}} C:/Users/EMRE/Desktop/ms/TIMER.v {1 {vlog -work work C:/Users/EMRE/Desktop/ms/TIMER.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module TIMER
+
+Top level modules:
+	TIMER
+
+} {} {}} C:/Users/EMRE/Desktop/ms/mp.v {1 {vlog -work work C:/Users/EMRE/Desktop/ms/mp.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mp
+
+Top level modules:
+	mp
+
+} {} {}} C:/Users/EMRE/Desktop/ms/RX.v {1 {vlog -work work C:/Users/EMRE/Desktop/ms/RX.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module UART_RX
+
+Top level modules:
+	UART_RX
+
+} {} {}}
