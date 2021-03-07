@@ -33,7 +33,7 @@ AA0D000000FFFFBB // reset = 0
  * Encoder: ARC S 050
  * Motor Driver: Custom  
  ![alt text](https://github.com/hakan-demirli/PID-FPGA/blob/main/HARDWARE.jpg?raw=true)
-# Verification of Design
+# Verification of The Design
  * Quartus project is verified by testbenches.
  * Overall project verified by oscilloscope measurements of the frequency of the encoder signals.
  The motor speed is 14.15708 RPS (7078.54/500). Which is quite close to the desired speed: 14 RPS.  
