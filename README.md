@@ -40,7 +40,7 @@ AA0D000000FFFFBB // reset = 0
  ![alt text](https://github.com/hakan-demirli/PID-FPGA/blob/main/14RPS.png?raw=true)  
  * Motor's response to disturbances under PID control:  
   ![alt text](https://github.com/hakan-demirli/PID-FPGA/blob/main/Disturbance.jpg?raw=true)  
-  Sudden up and down jumps that created the white halo effect are not a measurement error. They are created by a misaligned encoder and motor shaft. If you zoom in on the plot on MATLAB, you can see that it is, in fact, a sinusoidal signal.
+  Sudden up and down jumps that created the white halo effect are not a measurement errors. They are created by a misaligned encoder and motor shaft. If you zoom in on the plot on MATLAB, you can see that it is, in fact, a sinusoidal signal.
 # Possible Design Improvements and Current Flaws
  * Rotatory Encoder creates 500 pulses for every rotation. But, the calculations are done by dividing the pulse count by 512 in order to avoid a separate division circuit.
  * There is a bug with the multiplication circuit. The numbers are ~0.8% off.
