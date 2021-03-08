@@ -28,7 +28,7 @@ AA030000000500BB // KI = 2.5
 AA0D000000FFFFBB // reset = 0  
 
 # Hardware
- * Alter DE2 FPGA: EP2C35F672C6
+ * Altera DE2 FPGA: EP2C35F672C6
  * DC Motor: (unknown)
  * Encoder: ARC S 050
  * Motor Driver: Custom  
