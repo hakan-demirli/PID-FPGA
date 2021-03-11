@@ -19,7 +19,7 @@ The Numbers are fixed point 36 bit signed |1bit|26bit|9bit|
  * Address one is KP
  * Address two is KD
  * Address three is KI
- * Accessing to address zero sets the global reset to zero.  
+ * Accessing to other addresses sets the global reset to zero.  
 Examples:  
 AA00xxxxxxxxxxBB // reset = 1  
 AA010000000500BB // KP = 2.5  
