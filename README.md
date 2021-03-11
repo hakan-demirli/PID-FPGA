@@ -43,7 +43,7 @@ AA0D000000FFFFBB // reset = 0
   Sudden up and down jumps that created the white halo effect are not a measurement errors. They are created by a misaligned encoder and motor shaft. If you zoom in on the plot on MATLAB, you can see that it is, in fact, a sinusoidal signal.
 # Possible Design Improvements and Current Flaws
  * Rotatory Encoder creates 500 pulses for every rotation. But, the calculations are done by dividing the pulse count by 512 in order to avoid a separate division circuit.
- * There is a bug with the multiplication circuit. The numbers are ~0.8% off.
+ * There is a bug in the multiplication circuit. The numbers are ~0.8% off.
  * In my hardware setup, the DC motor and the Encoder are connected via a custom imperfect shaft that causes a sinusoidal noise on the speed values.
  * After the final debugging, I forgot to change the source of the desired speed from switches to RS232. So, you have to enter the desired speed from switches.
  * Current KP, KD, and KI values are quite low. It takes a couple of seconds for the motor to reach its final value. 
