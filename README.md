@@ -48,5 +48,5 @@ AA0D000000FFFFBB // reset = 0
  * After the final debugging, I forgot to change the source of the desired speed from switches to RS232. So, you have to enter the desired speed from switches.
  * Current KP, KD, and KI values are quite low. It takes a couple of seconds for the motor to reach its final value. 
  * There is no integral windup protection.
- * I am a sophomore student with no Control background so that is the best I can do in a week.
+ * I am a sophomore student with no Control background, so this is the best I can do in a week.
  
